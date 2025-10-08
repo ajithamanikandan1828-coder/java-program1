@@ -1,0 +1,19 @@
+import java.util.*;
+public class MathCalculations {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        float floatValue = sc.nextFloat();  
+        int squareValue = sc.nextInt();     
+        int base = sc.nextInt();            
+        int exponent = sc.nextInt();        
+        int floor = (int)Math.floor(floatValue);
+        int ceil = (int)Math.ceil(floatValue);
+        int sqrt = (int)Math.sqrt(squareValue);
+        int power = (int)Math.pow(base, exponent);
+        System.out.println(floor);
+        System.out.println(ceil);
+        System.out.println(sqrt);
+        System.out.println(power);
+        sc.close();
+    }
+}
